@@ -6,8 +6,6 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rb;
-
-    Entity entity;
     [SerializeField] float speed = 5.0f;
 
     Vector2 lastMovementDir = Vector2.zero;
